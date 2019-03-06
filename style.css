@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: rgb(143, 138, 138);
+    box-sizing: border-box;
+}
+
+
+
+header {
+    margin-top: 0;
+    height: 75px;
+    /* width: 100%; */
+    background-color: rgb(112, 22, 41);
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    padding-top: 1%;
+}
+
+.dugmici {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5%;
+}
+
+button,
+#sacuvaj {
+    padding: 1rem 4rem;
+    background-color: rgb(204, 198, 200);
+    color: rgb(112, 22, 41);
+    font-size: large;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px rgb(107, 87, 91);
+    border: solid 1px rgb(112, 22, 41);
+}
+
+#sacuvaj {
+    height: 50px;
+}
+
+span {
+    margin-left: 3%;
+}
+
+label,
+span {
+    padding: 10px 0;
+    color: rgb(112, 22, 41);
+    font-size: larger;
+}
+
+input {
+    border: solid 1px rgb(112, 22, 41);
+    border-radius: 0.25rem;
+    height: 25px;
+    box-shadow: 2px 2px rgb(107, 87, 91);
+}
+
+.prvi {
+    margin: 1% 7% 0 7%;
+    border-radius: 1rem;
+    border: solid 1px rgb(112, 22, 41);
+
+}
+
+.drugi {
+    margin: 1% 7% 0 7%;
+    border-radius: 1rem;
+    border: solid 1px rgb(112, 22, 41);
+    background-color: rgb(204, 198, 200);
+}
+
+form {
+    display: block;
+    background-color: rgb(253, 250, 251);
+    padding: 2% 5%;
+    background-color: rgb(204, 198, 200);
+    border-radius: 1rem;
+}
+
+table {
+    background-color: rgb(253, 250, 251);
+    margin: 2%;
+    border: solid 2px rgb(204, 198, 200);
+    width: 95%;
+    font-size: large;
+
+}
+
+th,
+td {
+    border-spacing: 1px;
+    border: solid 2px rgb(204, 198, 200);
+    height: 30px;
+    padding-left: 2%;
+}
+
+thead {
+    color: rgb(112, 22, 41);
+}

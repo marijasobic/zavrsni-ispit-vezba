@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zavrsni ispit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>ZAVRŠNI ISPIT</h1>
+    </header>
+
+    <main>
+        <div>
+            <div class="dugmici">
+                <button id="unos">UNOS</button>
+                <button id="prikaz">PRIKAZ</button>
+
+            </div>
+            <div class="prvi">
+                <form>
+
+                    <label for="ime"> Ime i Prezime:
+                    </label> <br>
+
+                    <input type="text" name="ime" id="ime"> <span id="p1"></span>
+
+                    <br><br>
+                    <label for="test1">Test br.1:</label> <br>
+
+                    <input type="number" name="test" id="test1" min="0" max="25"> <span id="p2"></span>
+                    <br><br>
+                    <label for="test2">Test br.2:</label> <br>
+                    <input type="number" name="test" id="test2" min="0" max="25"><span id="p3"></span> <br><br>
+
+                    <label for="projekat">Odbrana projekta:</label> <br>
+                    <input type="number" name="test" id="projekat" min="0" max="50"> <span id="p4"></span><br><br>
+
+                    <input type="button" id="sacuvaj" value="SAČUVAJ">
+                </form>
+
+            </div>
+
+            <div class="drugi">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ime i prezime</th>
+                            <th>Test 1</th>
+                            <th>Test 2</th>
+                            <th>Projekat</th>
+                            <th>Ukupno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+
+                    </tr> -->
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </main>
+</body>
+
+</html>
